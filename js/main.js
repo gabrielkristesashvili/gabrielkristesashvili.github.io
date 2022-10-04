@@ -121,8 +121,8 @@ function getMovies(searchText) {
 
 function movieSelected(id) {
     sessionStorage.setItem('movieId', id)
-    window.location = 'movie.html'
-    window.location.pathname = 'movie'
+    window.location = 'movie.html' + '/details/' + id
+
     return false
 
 }
