@@ -122,8 +122,6 @@ function getMovies(searchText) {
 function movieSelected(id) {
     sessionStorage.setItem('movieId', id)
     window.location = 'movie.html'
-    windot.location.split('/')
-    window.location.pathname = '/abezara'
 
     return false
 
