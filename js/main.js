@@ -77,7 +77,7 @@ $(document).ready(function () {
             let searchText = $('#searchText').val()
             getMovies(searchText);
             $('.head-title').html(`
-            <a id="indexhtml" href="/index.html">Home</a>
+            <a id="indexhtml" href="https://gabrielkristesashvili.github.io/search-movie/">Home</a>
             <span style="color:#e53637;">></span>
             <span style="margin-left: 8px; color:#fff;">Searched Movies</span>
             `)
@@ -122,6 +122,7 @@ function getMovies(searchText) {
 function movieSelected(id) {
     sessionStorage.setItem('movieId', id)
     window.location = 'movie.html'
+    window.location.pathname = 'movie'
     return false
 
 }
