@@ -4,7 +4,7 @@
 #### Click to open website!
 
 ```ruby
-  # https://gabrielkristesashvili.github.io/search-movie/
+  https://gabrielkristesashvili.github.io/search-movie/
 ```
 
 </p>
