@@ -1,11 +1,3 @@
-<details><summary>Website Link</summary>
-<p>
+Visit our website
 
-#### Click to open website!
-
-```ruby
-  https://gabrielkristesashvili.github.io/search-movie/
-```
-
-</p>
-</details>
+> ## https://gabrielkristesashvili.github.io/search-movie/
